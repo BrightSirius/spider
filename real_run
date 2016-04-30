@@ -1,0 +1,4 @@
+#!/bin/bash
+
+exec python spider.py 1>>~/log/std.log 2>>~/log/err.log &
+
